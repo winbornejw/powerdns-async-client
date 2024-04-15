@@ -1,0 +1,13 @@
+{
+    "powerDnsVersion": "5.0.3",
+    "spec": "https://raw.githubusercontent.com/PowerDNS/pdns/rec-5.0.3/docs/http-api/swagger/authoritative-api-swagger.yaml",
+    "lang": "python",
+    "configFile": "./swagger-codegen-config.json",
+    "verbose": true,
+    "systemProperties": [
+        "library=asyncio",
+        "packageName=powerdns_async_client",
+        "projectName=powerdns-async-client",
+        "packageVersion=5.0.3"
+    ]
+}
