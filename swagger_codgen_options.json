@@ -4,8 +4,8 @@
     "lang": "python",
     "configFile": "./swagger-codegen-config.json",
     "verbose": true,
+    "library": "asyncio",
     "systemProperties": [
-        "library=asyncio",
         "packageName=powerdns_async_client",
         "projectName=powerdns-async-client",
         "packageVersion=5.0.3"
